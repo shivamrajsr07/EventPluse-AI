@@ -1,0 +1,8 @@
+INFO:     127.0.0.1:55876 - "GET /analytics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61096 - "OPTIONS /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61096 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64037 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61049 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50597 - "GET /simulate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63763 - "GET /analytics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63763 - "GET /analytics HTTP/1.1" 200 OK

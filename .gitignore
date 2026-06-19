@@ -1,0 +1,11 @@
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+backend/venv/
+frontend/node_modules/
+
+*.pkl
+
+.env
