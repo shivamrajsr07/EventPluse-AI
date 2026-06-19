@@ -23,16 +23,13 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        origin.strip()
-        for origin in os.getenv("CORS_ALLOWED_ORIGINS", "").split(",")
-        if origin.strip()
+        "https://eventpulse-ai.vercel.app",
+        "http://localhost:5173"
     ],
-    allow_origin_regex=r"^(http://(localhost|127\.0\.0\.1):\d+|https://[a-z0-9-]+\.onrender\.com)$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
 )
-
 
 @app.get("/")
 def home():
